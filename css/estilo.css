@@ -57,19 +57,42 @@ h1{
 /* CAPA INICIO */
 
 .capa{
-    background: aliceblue;
+    color: white;
     padding: 100px 0; 
+    position: relative;
+}
+
+.capa p{
+    margin-top: 50px;
+}
+
+.capa p, h1{
+    text-shadow: black 2px 2px;
+}
+
+.capa a{
+    font-weight: 600;
+    padding: 10px 25px;
+}
+
+.bg-capa{
+    background-image: url(../img/fundo.jpg) ;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+    filter: brightness(80%);
+    background-position: center;
+    background-size: cover
 }
 
 @media screen and (max-width: 991px){
     .hero {
         padding: 35px 0 0; 
     } 
-}
-
-.capa p{
-    
-    margin-top: 50px;
 }
 
 .capa-assinantes{
@@ -86,10 +109,6 @@ h1{
 /* CAPA - FINAL */
 
 /* SECTION 1 - INICIO */
-
-.section-1{
-    
-}
 
 .section-1 h3{
     margin-top: 15px;
@@ -118,11 +137,11 @@ h1{
     margin-top: 100px;
 }
 
-@media screen and (max-width: 991px) {
-    .section-1 {
+/* @media screen and (max-width: 991px) { */
+    /* .section-1 { */
          
-    } 
-}
+    /* }  */
+/* } */
 
 
 
