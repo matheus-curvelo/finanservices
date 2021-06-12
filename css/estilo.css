@@ -7,7 +7,7 @@ h1{
 
 @media screen and (max-width: 991px){
     h1{
-        font-size: 38px; 
+        font-size: 35px; 
     } 
 }
 
@@ -67,6 +67,12 @@ h1{
     margin-top: 50px;
 }
 
+@media screen and (max-width: 991px){
+    .capa p{
+        font-size: 25px; 
+    } 
+}
+
 .capa p, h1{
     text-shadow: black 2px 2px;
 }
@@ -90,12 +96,6 @@ h1{
     background-size: cover
 }
 
-@media screen and (max-width: 991px){
-    .hero {
-        padding: 35px 0 0; 
-    } 
-}
-
 .capa-assinantes{
     font-size: 2em;
     margin-top: 8px;
@@ -110,8 +110,6 @@ h1{
 /* CAPA - FINAL */
 
 /* SECTION 1 - INICIO */
-
-
 
 .section-1 h2{
     margin-top: 50px;
@@ -140,14 +138,14 @@ h1{
     text-align: center;
     color: #71abff;
     text-decoration: none;
-    line-height: 250px;
+    padding: 100px 0px;
 }
 
 @media (max-width: 992.98px) {
     #leia-mais{
         line-height: 0px;
-        padding-top: 40px;
-        padding-bottom: 80px;
+        padding-top: 80px;
+        padding-bottom: 60px;
     }
 }
 
@@ -180,11 +178,10 @@ h1{
 
 /* SECTION 1 - FINAL */
 
-
 /* SECTION 2 - INICIO */
 
 .section-2 h2{
-    margin-top: 90px;
+    margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
     font-size: 3em;
@@ -200,6 +197,17 @@ h1{
     margin-right: auto;
     text-align: center;
     margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 991px){
+    .section-2 h2{
+        font-size: 2em; 
+    } 
+
+    .section-2 p{
+        font-size: 1em;
+    }
 }
 
 /* SECTION 2 - FINAL */
@@ -220,10 +228,7 @@ h1{
     background-color: #3b4bac;
     text-align: center;
     height: 60px;
-    margin-bottom: 50px;
-
-
-
+    /* margin-bottom: 50px; */
 }
 
 .api-buttom-area h4{
@@ -242,5 +247,56 @@ h1{
     padding: 6px 12px;
 }
 
+@media (max-width: 767.98px) {
+    
+    .api-buttom{
+        display: none;
+    }
+    .api-buttom-area{
+        height: 120px;
+    }
+}
+
+.api-buttom-2{
+    border-radius: 15px;
+    padding: 6px 12px;
+}
+
+@media (min-width: 767.98px) {
+    
+    .api-buttom-2{
+        display: none;
+    }
+}
 
 /* BANNER API - FINAL */
+
+/* FOOTER - INICIO */
+
+.footer-left{
+    padding: 40px 0px;
+    text-align: start;
+    padding-left: 30px;
+}
+
+.footer-right{
+    padding: 40px 0px;
+    text-align: end;
+    padding-right: 30px;
+    font-size: xx-large;
+    letter-spacing: 10px;
+}
+
+@media (max-width: 767.98px) {
+    
+    .footer-left{
+        font-size: 11px;
+    }
+
+    .footer-right{
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+}
+
+/* FOOTER - FINAL */
