@@ -185,7 +185,7 @@ h1{
 
 .section-2 h2{
     margin-top: 90px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 3em;
 }
@@ -203,3 +203,44 @@ h1{
 }
 
 /* SECTION 2 - FINAL */
+
+/* BANNER API - INICIO */
+
+.api-area{
+    color: white;
+    height: 250px;
+    background-color: #4f63d6;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+
+.api-buttom-area{
+    color: white;
+    background-color: #3b4bac;
+    text-align: center;
+    height: 60px;
+    margin-bottom: 50px;
+
+
+
+}
+
+.api-buttom-area h4{
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.api-info{
+    font-weight: 400;
+    padding-right: 8px;
+}
+
+.api-buttom{
+    border-radius: 15px;
+    padding: 6px 12px;
+}
+
+
+/* BANNER API - FINAL */
