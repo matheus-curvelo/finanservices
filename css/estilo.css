@@ -278,7 +278,7 @@ h1{
 }
 
 .form-sec{
-    width: 600px;
+    max-width: 600px;
 }
 
 /* SECTION FORM - INICIAL */
@@ -287,33 +287,41 @@ h1{
 /* FOOTER - INICIO */
 
 footer{
-    background-color: #e8e8e8;
+    color: white;
+    background-color: #3b4bac;
     margin-top: 20px;
+    padding: 20px 0px;
 }
 
-.footer-left{
-    padding: 40px 0px;
-    text-align: start;
-    padding-left: 30px;
+footer a{
+    color: white;
+    font-weight: 600;
 }
 
-.footer-right{
-    padding: 40px 0px;
-    text-align: end;
-    padding-right: 30px;
+footer i{
+    letter-spacing: 20px;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-wrapper{
     font-size: xx-large;
-    letter-spacing: 10px;
+    padding: 20px;
+
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
     
-    .footer-left{
-        font-size: 11px;
+    .footer-wrapper{
+        flex-direction: column;
+        justify-content: center;
     }
 
-    .footer-right{
-        font-size: 25px;
-        letter-spacing: 5px;
+    .icons-wrapper{
     }
 }
 
