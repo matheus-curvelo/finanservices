@@ -2,9 +2,6 @@
 
 body{
     font-family:-apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: ;
-    
-    
 }
 
 h1{
@@ -16,6 +13,10 @@ h1{
     h1{
         font-size: 35px; 
     } 
+}
+
+section{
+    padding: 50px 0px;
 }
 
 .btn-warning{
@@ -71,7 +72,6 @@ h1{
     color: white;
     padding: 100px 0; 
     position: relative;
-    margin-bottom: 65px;
 }
 
 .capa p{
@@ -120,19 +120,16 @@ h1{
     
 /* CAPA - FINAL */
 
-/* SECTION 1 - INICIO */
+/* SECTION - INICIO */
 
 .section-1 h2{
-    margin-top: 50px;
     margin-bottom: 50px;
-    text-align: center;
     font-size: 2.3em;
 }
 
 .section-1 h3{
     margin-top: 15px;
     font-size: 1.8em;
-    text-align: center;
 }
 
 .section-1 p{
@@ -167,10 +164,6 @@ h1{
     }
 }
 
-.texto-servicos{
-    text-align: center;
-}
-
 .img-icons{
     width: 20%;
     display: block;
@@ -187,15 +180,13 @@ h1{
     padding: 20px 0px;
 }
 
-/* SECTION 1 - FINAL */
-
-/* SECTION 2 - INICIO */
-
 .section-2 h2{
-    margin-top: 50px;
     margin-bottom: 20px;
-    text-align: center;
     font-size: 3em;
+}
+
+.section-1 h2, .section-2 h2, .section-1 h3, .section-2 p, .texto-servicos, .api-area, .api-buttom-area, .footer-wrapper{
+    text-align: center;
 }
 
 .section-2 p{
@@ -206,7 +197,6 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -221,7 +211,7 @@ h1{
     }
 }
 
-/* SECTION 2 - FINAL */
+/* SECTION - FINAL */
 
 /* BANNER API - INICIO */
 
@@ -229,7 +219,6 @@ h1{
     color: white;
     height: 250px;
     background-color: #4f63d6;
-    text-align: center;
     margin-top: 50px;
     padding: 50px 0px;
 }
@@ -237,7 +226,6 @@ h1{
 .api-buttom-area{
     color: white;
     background-color: #3b4bac;
-    text-align: center;
     height: 60px;
     /* margin-bottom: 50px; */
 }
@@ -320,7 +308,6 @@ footer i{
 .footer-wrapper{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .footer-wrapper div{
