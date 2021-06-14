@@ -74,7 +74,7 @@ h1{
 }
 
 .capa p, h1{
-    text-shadow: black 2px 2px;
+    text-shadow: rgba(0,0,0,0.5) 2px 2px 5px
 }
 
 .capa a{
@@ -271,7 +271,25 @@ h1{
 
 /* BANNER API - FINAL */
 
+/* SECTION FORM - INICIAL */
+
+.form-central{
+    margin: 50px 0px;
+}
+
+.form-sec{
+    width: 600px;
+}
+
+/* SECTION FORM - INICIAL */
+
+
 /* FOOTER - INICIO */
+
+footer{
+    background-color: #e8e8e8;
+    margin-top: 20px;
+}
 
 .footer-left{
     padding: 40px 0px;
