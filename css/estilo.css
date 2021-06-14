@@ -61,6 +61,7 @@ section{
 
 body{
     padding-top: 116px;
+    transition: padding-top ease-in-out .3s;
 }
 
 body.scrolled{ 
@@ -69,7 +70,12 @@ body.scrolled{
 
 body.scrolled .navbar{ 
     box-shadow: 0px 2px 5px rgba(153, 153, 153, 0.3);
-    max-height: 85px
+    height: 85px;
+}
+
+.navbar{
+    height: 116px;
+    transition: height ease-in-out .3s;
 }
 
 /* HEADER - FINAL */
