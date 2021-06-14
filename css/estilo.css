@@ -1,7 +1,10 @@
 /* CORPO - INICIO*/
 
 body{
-    font-family:-apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family:-apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: ;
+    
+    
 }
 
 h1{
@@ -13,6 +16,10 @@ h1{
     h1{
         font-size: 35px; 
     } 
+}
+
+.btn-warning{
+    color: #212529;
 }
 
 /* CORPO - INICIO*/
@@ -29,7 +36,7 @@ h1{
 }
 
 .cabecalho .nav-item .nav-link{
-    color: #000000;
+    color: #212529;
     font-weight: 700;
     padding: 10px 20px; 
 }
@@ -298,12 +305,11 @@ footer{
     padding-bottom: 20px;
 }
 
-footer a{
+footer a, footer a:hover{
     color: white;
 }
 
-footer a:hover{
-    color: white;
+.footer-name:hover{
     font-weight: 700;
 }
 
