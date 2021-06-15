@@ -231,7 +231,6 @@ body.scrolled .navbar{
 
 .api-area{
     color: white;
-    height: 250px;
     background-color: #4f63d6;
     margin-top: 50px;
     padding: 50px 0px;
@@ -280,6 +279,7 @@ body.scrolled .navbar{
         display: none;
     }
 }
+
 
 /* BANNER API - FINAL */
 
