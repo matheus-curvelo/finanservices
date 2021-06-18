@@ -294,6 +294,34 @@ body.scrolled .navbar{
     margin: 0 auto;
 }
 
+.selecao-moeda{
+    border: solid 2px white;
+    margin: 5px 0px;
+    border-radius: 20px;
+    color: white;
+}
+
+.selecao-moeda-ativo{
+    border: solid 2px white;
+    margin: 5px 0px;
+    border-radius: 20px;
+    background-color: white;
+    color: #4f63d6;
+}
+
+.selecao-moeda-cad{
+    font-size: .9em;
+    line-height: 1.8em;
+}
+
+.api-area div a{
+    text-decoration: none;
+}
+
+.api-area div a:hover{
+    font-weight: 700;
+}
+
 /* SECTION FORM - INICIAL */
 
 
