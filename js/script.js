@@ -1,7 +1,6 @@
 document.addEventListener("scroll",(event) => {
     let scrollPositionY = window.scrollY 
     let className = "scrolled"
-    console.log(scrollPositionY)
 
     if (scrollPositionY > 0) {
         document.body.classList.add(className)
@@ -10,3 +9,9 @@ document.addEventListener("scroll",(event) => {
         
     }
 } )
+
+function onClickCurrency(){
+    let element = document.getElementById("selecao-moeda")
+    element.classList.add("selecao-moeda-ativo")
+
+}

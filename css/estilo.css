@@ -280,6 +280,9 @@ body.scrolled .navbar{
     }
 }
 
+.moeda-cotacao, .sigla-cotacao{
+    font-weight: 700;
+}
 
 /* BANNER API - FINAL */
 
@@ -294,24 +297,30 @@ body.scrolled .navbar{
     margin: 0 auto;
 }
 
-.selecao-moeda{
-    border: solid 2px white;
-    margin: 5px 0px;
-    border-radius: 20px;
-    color: white;
+.api-area button{
+    appearance: none;
+    background: none;
+    border: none;
 }
 
-.selecao-moeda-ativo{
+.selecao-moeda{
     border: solid 2px white;
-    margin: 5px 0px;
     border-radius: 20px;
+    color: white;
+    background-color: #4f63d6;
+    padding: 5px 5px;
+    font-weight: 700;
+    font-size: 1.0em;
+    width: 200px;
+    margin: 1px;
+}
+.selecao-moeda-ativo{
     background-color: white;
     color: #4f63d6;
 }
-
-.selecao-moeda-cad{
-    font-size: .9em;
-    line-height: 1.8em;
+.api-area h2{
+    letter-spacing: 1px;
+    font-size: 2.5em;
 }
 
 .api-area div a{
@@ -322,8 +331,7 @@ body.scrolled .navbar{
     font-weight: 700;
 }
 
-/* SECTION FORM - INICIAL */
-
+/* SECTION FORM - FINAL */
 
 /* FOOTER - INICIO */
 

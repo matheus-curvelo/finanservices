@@ -298,86 +298,85 @@
             <div class="row">
 
                 <div class="col-2">
-                    <a href=""><div class="selecao-moeda-ativo">
-                        Dólar - $
-                    </div></a>
-                    <a href="">
+                    <button onclick="onClickCurrency()">
+                        <div class="selecao-moeda selecao-moeda-ativo">
+                            Dólar - $
+                        </div>
+                    </button><br>
+                    <button onclick="onClickCurrency()">
                         <div class="selecao-moeda">
                             Euro - &euro;
                         </div>
-                    </a>
-                    <a href="">
+                    </button><br>
+                    <button onclick="onClickCurrency()">
                         <div class="selecao-moeda">
                             Líbra - &pound;
                         </div>
-                    </a>
-                    <a href="">
-                        <div class="selecao-moeda selecao-moeda-cad">
+                    </button><br>
+                    <button onclick="onClickCurrency()">
+                        <div class="selecao-moeda">
                             Dólar Canadense - $
                         </div>
-                    </a>
+                    </button>
                 </div>
                 <div class="col-10">
-                    <div id="carouselExampleControls" data-bs-interval="90000" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <h2>
-                                    Cotação atual do Dólar
-                                </h2>
-                                <div class="mt-5"></div>
-                                <tr>
-                                    <td class="moeda-cotacao">Dólar</th>
-                                    <td class="sigla-cotacao">USD</td><br>
-                                    <td class="simbolo-cotacao">$</td>
-                                    <td class="valor-cotacao">5,05</td>
-                                </tr>
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-12">
+                              <h2>
+                                Cotação em tempo real
+                              </h2>
+                          </div>
+                          <div class="col-12">
+                            <div id="carouselExampleControls" data-bs-interval="90000" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active mt-5 mb-5">
+                                        <div>
+                                            <span class="moeda-cotacao">Dólar</span>
+                                            <span class="sigla-cotacao">USD:</span>
+                                            <span class="simbolo-cotacao">$</span>
+                                            <span class="valor-cotacao">5,05</span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item mt-5 mb-5">
+                                        <div>
+                                            <span class="moeda-cotacao">Euro</span>
+                                            <span class="sigla-cotacao">EUR:</span>
+                                            <span class="simbolo-cotacao">&euro;</span>
+                                            <span class="valor-cotacao">6,14</span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item mt-5 mb-5">
+                                        <div>
+                                            <span class="moeda-cotacao">Líbra</span>
+                                            <span class="sigla-cotacao">GBP:</span>
+                                            <span class="simbolo-cotacao">&pound;</span>
+                                            <span class="valor-cotacao">6,14</span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item mt-5 mb-5">
+                                        <div>
+                                            <span class="moeda-cotacao">Dólar Canadense</span>
+                                            <span class="sigla-cotacao">CAD:</span>
+                                            <span class="simbolo-cotacao">$</span>
+                                            <span class="valor-cotacao">4,18</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
-                            <div class="carousel-item">
-                                <h2>
-                                    Cotação atual do Euro
-                                </h2>
-                                <div class="mt-5"></div>
-                                <tr>
-                                    <td class="moeda-cotacao">Euro</th>
-                                    <td class="sigla-cotacao">EUR</td><br>
-                                    <td class="simbolo-cotacao">&euro;</td>
-                                    <td class="valor-cotacao">6,14</td>
-                                </tr>
-                            </div>
-                            <div class="carousel-item">
-                                <h2>
-                                    Cotação atual do Líbra
-                                </h2>
-                                <div class="mt-5"></div>
-                                <tr>
-                                    <td class="moeda-cotacao">Líbra</th>
-                                    <td class="sigla-cotacao">GBP</td><br>
-                                    <td class="simbolo-cotacao">&pound;</td>
-                                    <td class="valor-cotacao">6,14</td>
-                                </tr>
-                            </div>
-                            <div class="carousel-item">
-                                <h2>
-                                    Cotação atual do Dólar Canadense
-                                </h2>
-                                <div class="mt-5"></div>
-                                <tr>
-                                    <td class="moeda-cotacao">Dólar Canadense</th>
-                                    <td class="sigla-cotacao">CAD</td><br>
-                                    <td class="simbolo-cotacao">$</td>
-                                    <td class="valor-cotacao">4,18</td>
-                                </tr>
-                            </div>
+                          </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                      </div>
+
+                    
                 </div>
             </div>
         </div>
@@ -432,7 +431,7 @@
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">
-                                <strong>Concordo com os <a href="">termos de uso.</a></strong> 
+                                <strong>Concordo com os <a href="#">termos de uso.</a></strong> 
                             </label>
                         </div>
                         <a href="#" class="btn btn-warning">Enviar</a>
@@ -457,9 +456,9 @@
                         </div>
 
                         <div class="icons-wrapper">
-                            <a href=""><i class="fab fa-facebook-square"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
                         </div>
 
                     </div>
