@@ -288,6 +288,11 @@ body.scrolled .navbar{
     font-weight: 700;
 }
 
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 0s;
+}
+
 /* BANNER API - FINAL */
 
 /* SECTION FORM - INICIAL */
