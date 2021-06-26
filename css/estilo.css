@@ -306,13 +306,7 @@ body.scrolled .navbar{
     margin: 0 auto;
 }
 
-.api-area button{
-    appearance: none;
-    background: none;
-    border: none;
-}
-
-.selecao-moeda{
+.api-area .selecao-moeda{
     border: solid 2px white;
     border-radius: 20px;
     color: white;
@@ -322,8 +316,10 @@ body.scrolled .navbar{
     font-size: 1.0em;
     width: 200px;
     margin: 1px;
+    appearance: none;
+
 }
-.selecao-moeda-ativo{
+.api-area .selecao-moeda-ativo{
     background-color: white;
     color: #4f63d6;
 }

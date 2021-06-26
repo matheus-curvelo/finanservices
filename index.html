@@ -297,27 +297,8 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-2">
-                    <button data-bs-target="#carouselExampleControls" data-bs-slide-to="0" onclick="setActiveButton('selecao-moeda-dolar')">
-                        <div id="selecao-moeda-dolar" class="selecao-moeda selecao-moeda-ativo">
-                            Dólar - $
-                        </div>
-                    </button><br>
-                    <button data-bs-target="#carouselExampleControls" data-bs-slide-to="1" onclick="setActiveButton('selecao-moeda-euro')">
-                        <div  id="selecao-moeda-euro" class="selecao-moeda ">
-                            Euro - &euro;
-                        </div>
-                    </button><br>
-                    <button data-bs-target="#carouselExampleControls" data-bs-slide-to="2" onclick="setActiveButton('selecao-moeda-libra')">
-                        <div id="selecao-moeda-libra" class="selecao-moeda ">
-                            Líbra - &pound;
-                        </div>
-                    </button><br>
-                    <button data-bs-target="#carouselExampleControls" data-bs-slide-to="3" onclick="setActiveButton('selecao-moeda-cad')">
-                        <div id="selecao-moeda-cad" class="selecao-moeda">
-                            Dólar Canadense - $
-                        </div>
-                    </button>
+                <div id="botoes-api" class="col-2">
+                    <!-- conteudo botoes -->
                 </div>
                 <div class="col-10">
                     <div class="container">
@@ -329,61 +310,18 @@
                           </div>
                           <div class="col-12">
                             <div id="carouselExampleControls" data-bs-interval="90000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div id="item-dolar" class="carousel-item active mt-4 ">
-                                        <div>
-                                            <span class="moeda-cotacao">Dólar</span>
-                                            <span class="sigla-cotacao">USD:</span>
-                                            <span class="simbolo-cotacao">$</span>
-                                            <span class="valor-cotacao">5,05</span>
-                                        </div>
-                                    </div>
-                                    <div id="item-euro" class="carousel-item mt-4 ">
-                                        <div>
-                                            <span class="moeda-cotacao">Euro</span>
-                                            <span class="sigla-cotacao">EUR:</span>
-                                            <span class="simbolo-cotacao">&euro;</span>
-                                            <span class="valor-cotacao">6,14</span>
-                                        </div>
-                                    </div>
-                                    <div id="item-libra" class="carousel-item mt-4 ">
-                                        <div>
-                                            <span class="moeda-cotacao">Líbra</span>
-                                            <span class="sigla-cotacao">GBP:</span>
-                                            <span class="simbolo-cotacao">&pound;</span>
-                                            <span class="valor-cotacao">6,14</span>
-                                        </div>
-                                    </div>
-                                    <div id="item-cad" class="carousel-item mt-4 ">
-                                        <div>
-                                            <span class="moeda-cotacao">Dólar Canadense</span>
-                                            <span class="sigla-cotacao">CAD:</span>
-                                            <span class="simbolo-cotacao">$</span>
-                                            <span class="valor-cotacao">4,18</span>
-                                        </div>
-                                    </div>
+                                <div id="slide-api" class="carousel-inner">
+                                    <!-- conteudo slide -->
                                 </div>
-
-                                <!-- <button onclick="setActiveItem()" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-
-                                <button onclick="setActiveItem()" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button> -->
-
                             </div>
                           </div>
                         </div>
                       </div>
-
-                    
                 </div>
             </div>
         </div>
     </div>
+
     <div class="api-buttom-area">
         <div class="container">
             <div class="row">
