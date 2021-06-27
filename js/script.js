@@ -48,7 +48,6 @@ function get(url) {
 }
 
 function criarElementoBotao(cotacao){
-    // console.log(usuario)
 
     const {moeda} = cotacao
 
@@ -66,11 +65,10 @@ function criarSlide(dado){
     slideDiv.classList.add("mt-4")
 
     Object.entries(dado).forEach(([chave, valor]) => {
-        console.log("")
         const span = document.createElement("span")
 
         span.classList.add(`${chave}-cotacao`)
-        span.innerText = valor + " "
+        span.innerText = valor + (chave === "sigla" ? ': ' : " ")
     
         slideDiv.appendChild(span)
     } )
@@ -83,7 +81,6 @@ function main(){
     let cotacoes = JSON.parse(data)
     let inserirDados = document.getElementById("botoes-api")
     let slideContainer = document.getElementById("slide-api")
-    console.log(cotacoes)
 
     cotacoes.forEach((cotacao, index) => {
         let botao = criarElementoBotao(cotacao)
