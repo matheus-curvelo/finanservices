@@ -5,6 +5,19 @@ Este é o meu primeiro projeto da carreira, uma página inicial simples para um 
 ## Visão Geral
 O projeto consiste em uma página HTML básica com estilos CSS e funcionalidades JavaScript para criar uma interface de usuário amigável e atrativa.
 
+## Estrutura do Projeto
+
+```bash
+src/
+├── img/
+├── css/
+│   └── estilo.css/
+├── js/
+│   └── script.js/
+├── README.MD
+└── INDEX.HTML
+```
+
 ## Recursos
 
 HTML Básico: Estrutura HTML simples para criar a página inicial.
