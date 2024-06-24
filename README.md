@@ -1,22 +1,9 @@
 ## Projeto FinanServices
 
-Este é o meu primeiro projeto da carreira, uma página inicial simples para um serviço financeiro fictício.
+Este é o primeiro projeto da minha carreira, uma página inicial simples para um serviço financeiro fictício.
 
 ## Visão Geral
 O projeto consiste em uma página HTML básica com estilos CSS e funcionalidades JavaScript para criar uma interface de usuário amigável e atrativa.
-
-## Estrutura do Projeto
-
-```bash
-src/
-├── img/
-├── css/
-│   └── estilo.css/
-├── js/
-│   └── script.js/
-├── README.MD
-└── INDEX.HTML
-```
 
 ## Recursos
 
